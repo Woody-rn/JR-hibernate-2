@@ -29,7 +29,6 @@ public class Film {
     @Column(columnDefinition = "text")
     private String description;
 
-    //todo
     @Column(name = "release_year", columnDefinition = "year")
     @Convert(converter = YearConvertor.class)
     private Year releaseYear;
